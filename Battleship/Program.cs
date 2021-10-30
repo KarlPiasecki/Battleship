@@ -113,7 +113,7 @@ namespace Battleship
         {
             int xInput;
             
-            Console.WriteLine("Enter an X coordinate: ");
+            Console.WriteLine("Enter an X coordinate (1-10): ");
             string userInput_X = Console.ReadLine();
 
             if (int.TryParse(userInput_X, out xInput))
