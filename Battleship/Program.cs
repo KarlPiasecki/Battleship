@@ -318,6 +318,8 @@ namespace Battleship
             }
             //It takes 13 hits to sink all the ships. After 13 hits display the following end-of-game message:
             Console.WriteLine("Good show. You sank all the enemy ships. The game is now over.\n");
+            Console.WriteLine("Enter any key to exit.");
+            Console.ReadKey();
         }
 
 
